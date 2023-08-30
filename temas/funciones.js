@@ -41,5 +41,5 @@ const heroes = [
 const existe = heroes.some((heroe) => heroe.id === 1);
 console.log(existe);
 
-const { name, id } = heroes.find((heroe) => heroe.id === 2);
-console.log(name);
+const existe2 = heroes.find((heroe) => heroe.id === 2);
+console.log(existe2.name);
