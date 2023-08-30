@@ -6,14 +6,14 @@ import superHeores from "../data/heores.js";
 
 // console.log(superHeores);
 
-const getHeroeById = (id) => {
+export const getHeroeById = (id) => {
   return superHeores.find((heroe) => heroe.id === id);
 };
 
 // console.log(getHeroeById(2));
 
-const getHeroeByOwner = (owner) => {
+export const getHeroeByOwner = (owner) => {
   return superHeores.filter((heroe) => heroe.owner === owner);
 };
 
-console.log(getHeroeByOwner("DC"));
+// console.log(getHeroeByOwner("DC"));
