@@ -1,6 +1,7 @@
-const apiKey = "tqSBWQzPC9KRqAbvnXnDQKPFcDcYjU2q";
+export const apiKey = "tqSBWQzPC9KRqAbvnXnDQKPFcDcYjU2q";
+export const apiEndPoint = "https://api.giphy.com/v1/gifs";
 
-const url = `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`;
+export const url = `${apiEndPoint}/random?api_key=${apiKey}`;
 
 // fetch(url)
 //   .then((response) => {
