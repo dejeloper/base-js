@@ -8,13 +8,15 @@ const api = axios.create({
   },
 });
 
-api
-  .get("/random")
-  .then((resp) => {
-    // const url = resp.data.data.images.original.url;
-    const { data } = resp.data;
-    const { url } = data.images.original;
+// api
+//   .get("/random")
+//   .then((resp) => {
+//     // const url = resp.data.data.images.original.url;
+//     const { data } = resp.data;
+//     const { url } = data.images.original;
 
-    console.log(url);
-  })
-  .catch(console.log);
+//     console.log(url);
+//   })
+//   .catch(console.log);
+
+export default api;
